@@ -1,11 +1,12 @@
-const x = 2, fns = [];
+const x = 2;
+var fns = [];
 
 (function(){
-	{let x = 5;
+	{const x = 5;
 
 		for (let i=0; i<x; i++) {
 			fns[i] = function numbers() {
-				return i + 1;
+				return i;
 			}
 		}
 	}
