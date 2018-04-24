@@ -33,27 +33,19 @@ var defaults = {
 function response( {
 										foo = defaults.foo,
 										bar = defaults.bar,
-										headers: [
-															a,
-															b,
-															c 
-														 ] = [],
+										baz,
 										bam: {
 													qux = defaults.qux,
 													qam = defaults.qam
-												 } = {defaults.qux, defaults.qam}
-									 } = defaults
+												 } = {}
+									 } = {}
 								 )
 {
 
 	check({
 		foo,
 		bar,
-		baz: {
-			a,
-			b,
-			c
-		}
+		baz
 		bam: {
 			qux,
 			qam
