@@ -4,7 +4,7 @@ function upper(strings,...values) {
 	for (let index = 0; index < strings.length; index++) {
 		if (index > 0) {
 			if (typeof values[index-1] == "string") {
-				interpoLiteral += values[index-1].toUpper();
+				interpoLiteral += values[index-1].toUpperCase();
 			}
 		}
 		interpoLiteral += strings[index];
