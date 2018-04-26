@@ -1,9 +1,9 @@
 var numbers = {
 	*[Symbol.iterator](
 											{
-												start: 0,
-												end: 100,
-												step: 1
+												start = 0,
+												end = 100,
+												step = 1
 											}
 										)
   {
